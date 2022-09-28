@@ -47,6 +47,7 @@
     text-decoration: underline;
     /* border: 1px solid; */
     height: 100%;
+    cursor: pointer;
 }
 #top>div:last-child>div:last-child{
     /* border: 1px solid; */
@@ -98,6 +99,17 @@
     /* text-decoration: underline; */
     /* border: 1px solid; */
     height: 100%;
+    cursor: pointer;
+}
+#middle>div>span:nth-child(2){
+    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+}
+#middle span:hover{
+    /* background-color: yellow; */
+    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+}
+#middle p{
+    color: grey;
 }
 #middle>div:last-child{
     width: 18%;
@@ -139,7 +151,12 @@ img{
     /* border: 1px solid red; */
     padding: 8px 0;
 }
-
+#bottom span{
+    cursor: pointer;
+}
+#bottom span:hover{
+    color: grey;
+}
  /* navbar ends here  */
 
 /* mens page content starts here */
@@ -175,6 +192,9 @@ img{
     color: black;
     cursor: pointer;
 }
+#bodyTop a:hover{
+    color: grey;
+}
 #bodyTop{
     margin-bottom: 120px;
 }
@@ -209,15 +229,16 @@ img{
     color: grey;
 }
 #designers>div:last-child{
-    border: 1px solid;
-    width: 35%;
+    /* border: 1px solid; */
+    background-color: white;
+    width: 26%;
     text-align: center;
     padding-top: 30px;
     padding-bottom:0px;
     line-height: 30px;
-    /* position: absolute;
-    top: 1000px; */
-    position: inherit;
+    position: absolute;
+    top: 890px;
+    left: 560px;
     
 }
 #designers>div:last-child p{
@@ -227,4 +248,14 @@ img{
     /* border: 1px solid; */
     /* margin-top: 30px; */
     line-height: 120px;
+}
+#designers>div>h3{
+    cursor: pointer;
+    /* border: 1px solid; */
+}
+#designers>div>h3:hover{
+    color: grey;
+}
+#designers a:hover{
+color: grey;
 }
