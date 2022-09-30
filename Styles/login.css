@@ -175,6 +175,8 @@ img{
     padding: 30px;
     gap: 20px;
     margin-bottom: 80px;
+    margin-top: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
  form>div{
     display: grid;
@@ -230,10 +232,8 @@ img{
 }
 #checkPrivacy>div{
     display: flex;
-    gap: 10px;
- }
- #checkPrivacy input{
-    width: 50px;
+    gap: 5px;
+    justify-content: end;
  }
  #checkPrivacy label{
     text-align: start;
@@ -245,7 +245,7 @@ img{
     color: rgb(94, 94, 94);
  }
  #checkPrivacy{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     padding: 10px;
     width: 96%;
  }
@@ -276,4 +276,13 @@ img{
  }
  #footerBottom span{
     color: grey;
+ }
+ #forgotPass{
+    display: flex;
+    justify-content: end;
+ }
+ #forgotPass>a{
+    color: black;
+    font-size: 10px;
+    font-style: italic;
  }
