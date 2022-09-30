@@ -61,6 +61,13 @@
 #top>div:last-child{
     width: 12%;
 }
+#top>div:last-child>div>a{
+    color: black;
+}
+#top>div:last-child>div>a:hover{
+    color: black;
+    text-decoration: none;
+}
 #top>div>div:hover{
     background-color: #f3f3f3;
 }
@@ -108,7 +115,7 @@
     cursor: pointer;
 }
 #middle>div>span:nth-child(2){
-    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+    /* background: linear-gradient(white,white,rgb(254, 254, 144),yellow); */
 }
 #middle span:hover{
     /* background-color: yellow; */
@@ -253,6 +260,13 @@ img{
     background-color:#333333;
     color: white;
     font-weight: bold;
+    transition: 0.15s;
+ }
+ #regBtn>input:hover{
+    background-color: #464646;
+ }
+ #regBtn>input:active{
+    background-color: #000000;
  }
  /* form section ends here */
 

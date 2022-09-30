@@ -32,6 +32,13 @@
 #top>div:nth-child(2){
     width: 30%;
 }
+#top>div:last-child>div>a{
+    color: black;
+}
+#top>div:last-child>div>a:hover{
+    color: black;
+    text-decoration: none;
+}
 #top>div>div{
     width: 50%;
     height: auto;
@@ -61,13 +68,6 @@
 }
 #top>div:last-child{
     width: 12%;
-}
-#top>div:last-child>div>a{
-    color: black;
-}
-#top>div:last-child>div>a:hover{
-    color: black;
-    text-decoration: none;
 }
 #top>div>div:hover{
     background-color: #f3f3f3;
@@ -114,7 +114,7 @@
     height: 100%;
     cursor: pointer;
 }
-#middle>div>span:nth-child(2){
+#middle>div>span:nth-child(1){
     background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
 }
 #middle span:hover{
@@ -190,7 +190,7 @@ img{
     background-color: white;
     width: 24%;
     position: absolute;
-    top: 620px;
+    top: 540px;
     left: 140px;
     padding: 20px;
     line-height: 40px;
@@ -253,7 +253,7 @@ img{
     padding-bottom:0px;
     line-height: 30px;
     position: absolute;
-    top: 890px;
+    top: 790px;
     left: 560px;
     
 }
@@ -482,7 +482,7 @@ color: grey;
     background-color: white;
     width: 24%;
     position: absolute;
-    top: 4380px;
+    top: 4320px;
     left: 230px;
     padding: 20px;
     line-height: 40px;
@@ -544,7 +544,7 @@ color: grey;
     background-color: white;
     width: 24%;
     position: absolute;
-    top: 5140px;
+    top: 5090px;
     left: 90px;
     padding: 20px;
     line-height: 40px;
@@ -554,7 +554,7 @@ color: grey;
     background-color: white;
     width: 24%;
     position: absolute;
-    top: 5140px;
+    top: 5090px;
     left: 1025px;
     padding: 20px;
     line-height: 40px;

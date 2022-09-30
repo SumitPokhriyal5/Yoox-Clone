@@ -31,6 +31,13 @@
 #top>div:nth-child(2){
     width: 30%;
 }
+#top>div:last-child>div>a{
+    color: black;
+}
+#top>div:last-child>div>a:hover{
+    color: black;
+    text-decoration: none;
+}
 #top>div>div{
     width: 50%;
     height: auto;
@@ -108,7 +115,7 @@
     cursor: pointer;
 }
 #middle>div>span:nth-child(2){
-    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+    /* background: linear-gradient(white,white,rgb(254, 254, 144),yellow); */
 }
 #middle span:hover{
     /* background-color: yellow; */
