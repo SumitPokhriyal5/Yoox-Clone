@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#navbar { 
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+#top{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgb(233, 233, 233) ;
+    /* padding: 0 200px; */
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+#top>div{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#top>div:nth-child(2){
+    width: 30%;
+}
+#top>div>div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 8px 0;
+}
+#top>div>div>span{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    /* border: 1px solid; */
+    height: 100%;
+    cursor: pointer;
+}
+#top>div:last-child>div:last-child{
+    /* border: 1px solid; */
+    width: 30%;
+}
+#top>div:last-child>div:first-child{
+    /* border: 1px solid; */
+    width: 40%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#top>div:last-child{
+    width: 12%;
+}
+#top>div:last-child>div>a{
+    color: black;
+}
+#top>div:last-child>div>a:hover{
+    color: black;
+    text-decoration: none;
+}
+#top>div>div:hover{
+    background-color: #f3f3f3;
+}
+#top>div>div>span:hover{
+    text-decoration: none;
+}
+#middle{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid ; */
+    /* padding: 0 200px; */
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    /* padding: 8px 0; */
+}
+#middle>div{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 8px 0;
+}
+#middle>div:first-child{
+    margin-left: -70px;
+    
+}
+#middle>div:nth-child(2){
+    width: 10%;
+    margin-left: -80px;
+}
+#middle>div>span,i{
+    display: flex;
+    align-items: center;
+    /* text-decoration: underline; */
+    /* border: 1px solid; */
+    height: 100%;
+    cursor: pointer;
+}
+#middle>div>span:nth-child(2){
+    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+}
+#middle span:hover{
+    /* background-color: yellow; */
+    background: linear-gradient(white,white,rgb(254, 254, 144),yellow);
+}
+#middle p{
+    color: grey;
+}
+#middle>div:last-child{
+    width: 18%;
+    margin-right: -80px;
+}
+#middle i{
+    font-size: 20px;
+
+}
+#middle>div:last-child{
+    /* width: 18%; */
+    justify-content: space-evenly;
+}
+img{
+    width: 100px;
+
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid ; */
+    /* padding: 0 200px; */
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+    /* padding: 8px 0; */
+}
+#bottom>div{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 8px 0;
+}
+#bottom span{
+    cursor: pointer;
+}
+#bottom span:hover{
+    color: grey;
+}
+ /* navbar ends here  */
+
+ #content{
+    border: 1px solid;
+    display: flex;
+    width: 60%;
+    margin: auto;
+ }
+ #productTop{
+    display: flex;
+    width: 100%;
+    margin: auto;
+ }
+ #productTop>div{
+    width: 45%;
+    border: 1px solid;
+    padding: 40px;
+
+ }
+ #topLeft img{
+    width: 100%;
+ }
+ #topLeft{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+ }
+ #topLeft>div:nth-child(1){
+    display: grid;
+    grid-area: 1/1/5/5;
+ }
+ #topRight>div{
+    border: 1px solid blue;
+    width: 100%;
+ }
+ 
+ 

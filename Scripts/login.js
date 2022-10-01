@@ -28,6 +28,6 @@ function loginFun(event){
         window.location.href="mens.html";
     }
     else{
-        alert("Email and Password not matching")
+        alert("Incorrect Email or Password")
     }
 }
