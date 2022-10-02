@@ -5,3 +5,11 @@ function womenPage(event){
     event.preventDefault();
     window.location.href="womens.html";
 }
+
+// go to n21 product
+document.querySelector("#n21").addEventListener("click", goInside);
+
+function goInside(event){
+    event.preventDefault()
+    window.location.href="product.html";
+}
