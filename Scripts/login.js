@@ -24,6 +24,7 @@ function loginFun(event){
         log_pass:document.querySelector("#password>input").value
     }
     if(details.prs_email==obj.log_email&&details.prs_password==obj.log_pass){
+        localStorage.setItem("login-data", JSON.stringify(obj));
         alert("Login Successful");
         window.location.href="mens.html";
     }
