@@ -3,7 +3,7 @@ document.querySelector("#middle>div>span:first-child").addEventListener("click",
 
 function womenPage(event){
     event.preventDefault();
-    window.location.href="womens.html";
+    window.location.href="index.html";
 }
 
 // go to n21 product

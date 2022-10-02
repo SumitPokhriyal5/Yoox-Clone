@@ -11,7 +11,7 @@ document.querySelector("#middle>div>span:first-child").addEventListener("click",
 
 function womenPage(event){
     event.preventDefault();
-    window.location.href="womens.html";
+    window.location.href="index.html";
 }
 
 //login data
@@ -26,7 +26,7 @@ function loginFun(event){
     if(details.prs_email==obj.log_email&&details.prs_password==obj.log_pass){
         localStorage.setItem("login-data", JSON.stringify(obj));
         alert("Login Successful");
-        window.location.href="mens.html";
+        window.location.href="index.html";
     }
     else{
         alert("Incorrect Email or Password")
