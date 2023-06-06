@@ -8,7 +8,7 @@ This is a clone of the Yoox e-commerce website, created as a personal project fo
 * Sign-up page: a page that allows new users to create an account by entering their name, email, password, and other personal information.<br/>
 * Product details page: a page that displays the details of a specific product, such as its name, description, price, and images, and allows users to add it to their   cart or wishlist.<br/>
 
-<h1>Tech Stack</h1>
+<h1>Tech Stack🚀</h1>
 The website was developed using the following technologies:<br/><br/>
 
 HTML: to create the structure and content of the web pages.<br/>
