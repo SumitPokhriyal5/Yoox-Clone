@@ -16,7 +16,7 @@ CSS: to style the web pages and make them visually appealing.<br/>
 JavaScript: to add interactivity and dynamic behavior to the web pages.<br/>
 
 
-<h1>Areas of Responsibility</h1>
+<h1>Areas of Responsibility🎉</h1>
 Built the landing page, which includes the hero section, featured products, categories, and navigation menu.<br/>
 Built the men's page, which displays all the available men's products organized by categories.<br/>
 Created the sign-in and sign-up pages, which allow users to access their account or create a new one.<br/>
